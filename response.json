@@ -1,0 +1,1 @@
+{"messageVersion": "1.0", "response": {"actionGroup": "create_bug_report", "function": "create_bug_report", "functionResponse": {"responseBody": {"TEXT": {"body": "{\"ticketId\": \"a8263926-6355-4fa5-8f45-ae16887b14d2\", \"status\": \"OPEN\"}"}}}}}

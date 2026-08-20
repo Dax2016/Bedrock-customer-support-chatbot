@@ -1,0 +1,32 @@
+{
+    "flowInputNode": {
+      "nodeName": "FlowInputNode"
+    },
+    "tests": [
+      {
+        "id": "t1_platform_delivery",
+        "prompt": "How long does delivery take?",
+        "expected": "The chatbot should explain that estimated delivery times are shown at checkout and in the shipping confirmation email, and that processing typically takes 1–2 business days before dispatch."
+      },
+      {
+        "id": "t2_platform_password",
+        "prompt": "I forgot my password. How do I reset it?",
+        "expected": "The chatbot should explain that the customer should use the Forgot password link on the sign-in page and that a reset email will be sent if the email address matches an account."
+      },
+      {
+        "id": "t3_platform_return",
+        "prompt": "Can I return an item?",
+        "expected": "The chatbot should explain that most items can be returned within 30 days of delivery if unused and in original packaging, subject to the stated exceptions."
+      },
+      {
+        "id": "t4_bug_checkout",
+        "prompt": "The checkout button is not working when I try to place my order.",
+        "expected": "The chatbot should identify this as a bug report and collect the description, steps to reproduce, and environment information before creating a support ticket."
+      },
+      {
+        "id": "t5_other_weather",
+        "prompt": "What is the weather today?",
+        "expected": "The chatbot should explain that the request is outside automated support and direct the customer to human support at 1-800-555-0199."
+      }
+    ]
+  }
